@@ -1,1 +1,23 @@
+1 - COMENTÁRIO SOBRE O TEXTO CONTIDO NO LIVRO 'SOFTWARE ENGENEERING AT GOOGLE, OREILLY'
 
+O termo engenheiro de software traz um novo peso a profissão, ao ser chamado de programador o estudante de ciência da computação acaba tendo seu ramo do conhecimento resumido a apenas uma área das muitas que envolvem esta ciência, o título de engenheiro é muito mais respeitado na sociedade. Como o software acaba sendo algo mais abstrato e menos concreto que as outras engenharias, por muito tempo os erros em desenvolvimento de software não tinham um impacto tão intenso como um erro estrutural de engenharia civil por exemplo. Nos últimos anos sua integração em diversas áreas do nosso dia a dia fez com que alguns erros cometidos passassem a ser vistos como algo mais sério, podendo levar a crises de segurança de dados e até mesmo a questões financeiras envolvendo bancos.
+
+2 - COMENTÁRIO SOBRE O TEXTO CONTIDO NO LIVRO 'SOFTWARE ENGENEERING AT GOOGLE, OREILLY'
+
+O trecho indicado trata manejo do código, onde escrever o código não é o único passo que o mantém, é importante lembrar que o código precisa passar por manutenção e organização constante para que siga atingindo seu objetivo. Utilizar um rigor maior em boas práticas pode ser uma boa maneira, segundo o texto, de mantê-lo adaptado e facilitar possíveis mudanças que venham a ser necessárias. Ele coloca um ciclo que vai de concepção, introdução, manutenção e depreciação, e abre debate para "que praticas podem ser utilizadas para melhoria do produto". São apontados três princípios utilizados no design, arquitetura e escrever códigos, são eles: tempo e mudança, para adaptação do código; escala e crescimento, como facilitar uma organização para adaptação e evolução; trade-offs e custos, como tomar decisões com objetivo de melhorar e apoiar os outros princípios.
+
+3- REQUISITOS NÃO FUNCIONAIS
+
+Escalabilidade: Fazê-lo abrindo espaço para crescimento e melhorias 
+Usabilidade: Precisa atender o cliente e ser eficiente 
+Segurança: Segurança dos dados e dos sistemas, tanto para a instituição quanto para o cliente 
+Integridade dos dados: Dados corretos e consistentes são fundamentais para as aplicações 
+Auditabilidade: Tem que manter uma organização que possa ser verificada para evitar erros e problemas
+
+4- TRADE-OFFS
+
+4.1 - Ao utilizar uma autenticação multifator, se escolhe a segurança acima da praticidade. 
+4.2 - Para um melhor desempenho de máquina é necessário consumo de recursos mais complexos, como aplicações otimizadas e sistemas mais responsivos, que custam mais caro e gastam mais energia.
+4.3 - Normalização é mais organizada, reduz redundância e inconsistências, mas é mais lenta, a desnormalização tem foco em performance, utilizando menos JOINS
+
+5- É POSSÍVEL TESTAR TUDO? Não é possível testar tudo, no exercício um teste levando em consideração apenas números aleatorios não demonstraria a diferença no resultado da divisão que só é vista quando nos numeros -29999, -30000, +29999 e 30000.
